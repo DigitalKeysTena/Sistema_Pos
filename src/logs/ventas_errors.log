@@ -1,0 +1,122 @@
+[2025-12-18 05:09:12] === INICIO PROCESAR VENTA ===
+[2025-12-18 05:09:12] Vendedor ID: 2
+[2025-12-18 05:09:12] Input recibido | Data: Array
+(
+    [length] => 160
+    [preview] => {"id_cliente":4,"productos":[{"id":4,"cantidad":1,"precio":23.86}],"subtotal":23.86,"descuento":12,"iva":1.78,"total":13.64,"metodo_pago":"EFECTIVO","notas":""}
+)
+
+[2025-12-18 05:09:12] Datos decodificados correctamente | Data: Array
+(
+    [id_cliente] => 4
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [cantidad] => 1
+                    [precio] => 23.86
+                )
+
+        )
+
+    [subtotal] => 23.86
+    [descuento] => 12
+    [iva] => 1.78
+    [total] => 13.64
+    [metodo_pago] => EFECTIVO
+    [notas] => 
+)
+
+[2025-12-18 05:09:12] Cliente ID: 4
+[2025-12-18 05:09:12] Valores calculados | Data: Array
+(
+    [subtotal] => 23.86
+    [descuento] => 12
+    [iva] => 1.78
+    [total] => 13.64
+    [metodo_pago] => EFECTIVO
+)
+
+[2025-12-18 05:09:12] Conexión a BD establecida
+[2025-12-18 05:09:12] Cliente verificado OK
+[2025-12-18 05:09:12] Validando 1 productos
+[2025-12-18 05:09:12] Todos los productos validados OK
+[2025-12-18 05:09:12] Transacción iniciada
+[2025-12-18 05:09:12] Transacción revertida | Data: Array
+(
+    [error] => Unknown column 'IVA' in 'INSERT INTO'
+)
+
+[2025-12-18 05:09:12] ERROR GENERAL | Data: Array
+(
+    [mensaje] => Unknown column 'IVA' in 'INSERT INTO'
+    [trace] => #0 /home/u471399559/domains/cornflowerblue-goldfinch-724248.hostingersite.com/src/controllers/vendedor/procesar_venta.php(254): mysqli->prepare()
+#1 /home/u471399559/domains/cornflowerblue-goldfinch-724248.hostingersite.com/public_html/api/vendedor/procesar_venta.php(4): require_once('/home/u47139955...')
+#2 {main}
+)
+
+[2025-12-18 05:09:12] Conexión cerrada
+[2025-12-18 05:09:12] === FIN PROCESAR VENTA ===
+
+[2025-12-18 05:27:58] === INICIO PROCESAR VENTA ===
+[2025-12-18 05:27:58] Vendedor ID: 2
+[2025-12-18 05:27:58] Input recibido | Data: Array
+(
+    [length] => 162
+    [preview] => {"id_cliente":4,"productos":[{"id":4,"cantidad":1,"precio":23.86}],"subtotal":23.86,"descuento":0,"iva":3.58,"total":27.44,"metodo_pago":"EFECTIVO","notas":"dsa"}
+)
+
+[2025-12-18 05:27:58] Datos decodificados correctamente | Data: Array
+(
+    [id_cliente] => 4
+    [productos] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [cantidad] => 1
+                    [precio] => 23.86
+                )
+
+        )
+
+    [subtotal] => 23.86
+    [descuento] => 0
+    [iva] => 3.58
+    [total] => 27.44
+    [metodo_pago] => EFECTIVO
+    [notas] => dsa
+)
+
+[2025-12-18 05:27:58] Cliente ID: 4
+[2025-12-18 05:27:58] Valores calculados | Data: Array
+(
+    [subtotal] => 23.86
+    [descuento] => 0
+    [iva] => 3.58
+    [total] => 27.44
+    [metodo_pago] => EFECTIVO
+)
+
+[2025-12-18 05:27:58] Conexión a BD establecida
+[2025-12-18 05:27:58] Cliente verificado OK
+[2025-12-18 05:27:58] Validando 1 productos
+[2025-12-18 05:27:58] Todos los productos validados OK
+[2025-12-18 05:27:58] Transacción iniciada
+[2025-12-18 05:27:58] Transacción revertida | Data: Array
+(
+    [error] => Unknown column 'IVA' in 'INSERT INTO'
+)
+
+[2025-12-18 05:27:58] ERROR GENERAL | Data: Array
+(
+    [mensaje] => Unknown column 'IVA' in 'INSERT INTO'
+    [trace] => #0 /home/u471399559/domains/cornflowerblue-goldfinch-724248.hostingersite.com/src/controllers/vendedor/procesar_venta.php(254): mysqli->prepare()
+#1 /home/u471399559/domains/cornflowerblue-goldfinch-724248.hostingersite.com/public_html/api/vendedor/procesar_venta.php(4): require_once('/home/u47139955...')
+#2 {main}
+)
+
+[2025-12-18 05:27:58] Conexión cerrada
+[2025-12-18 05:27:58] === FIN PROCESAR VENTA ===
+
