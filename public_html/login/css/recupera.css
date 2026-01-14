@@ -1,0 +1,198 @@
+/* Reset mínimo — seguro para Lighthouse */
+html, body {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins",sans-serif;
+}
+
+/* Evita recalcular en todos los elementos */
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+/* Página */
+html { font-size:16px; }
+
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  padding:20px;
+  overflow:hidden;
+
+  background:linear-gradient(120deg,#b4c09b,#f4b6b8,#f4a261,#5e7c50);
+  background-size:200% 200%;
+  animation:bgMove 16s ease infinite;
+}
+
+@keyframes bgMove{
+  0%,100%{background-position:0 50%}
+  50%{background-position:100% 50%}
+}
+
+/* Card */
+main.login-card{
+  width:100%;
+  max-width:380px;
+  padding:38px 32px;
+  border-radius:18px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 4px 24px rgba(0,0,0,.15);
+  text-align:center;
+  animation:fadeSlideIn .8s ease;
+}
+
+@keyframes fadeSlideIn{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Logo */
+.logo{
+  width:110px;
+  margin-bottom:14px;
+  animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+}
+
+h1{
+  font-size:1.6rem;
+  margin-bottom:12px;
+  font-weight:600;
+}
+
+.subtitle{
+  font-size:.9rem;
+  opacity:.9;
+  margin-bottom:22px;
+}
+
+/* Formulario */
+form{
+  margin-top:20px;
+  text-align:left;
+}
+
+/* Inputs */
+.input-box{
+  position:relative;
+  margin-bottom:26px;
+}
+
+.input-box input{
+  width:100%;
+  padding:14px 15px;
+  border-radius:12px;
+  border:2px solid rgba(255,255,255,.25);
+  background:rgba(255,255,255,.15);
+  color:#fff;
+  font-size:1rem;
+  transition:border .25s ease, background .25s ease;
+}
+
+.input-box input:focus{
+  border-color:#f4b6b8;
+  background:rgba(255,255,255,.25);
+}
+
+.input-box label{
+  position:absolute;
+  left:15px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#eee;
+  font-size:1rem;
+  opacity:.85;
+  pointer-events:none;
+  transition:.3s ease;
+}
+
+.input-box input:valid+label,
+.input-box input:focus+label{
+  top:-6px;
+  font-size:.75rem;
+  opacity:1;
+}
+
+/* Botón */
+.btn{
+  width:100%;
+  padding:12px 20px;
+  border:1px solid rgba(255,255,255,.6);
+  background:rgba(255,255,255,.08);
+  color:#fff;
+  font-weight:600;
+  font-size:16px;
+  text-transform:uppercase;
+  border-radius:12px;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 14px rgba(255,255,255,.25);
+}
+
+.btn::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-40px;
+  width:0;
+  height:100%;
+  background:linear-gradient(90deg,#5e7c50,#b4c09b,#f4b6b8,#f4a261);
+  transform:skewX(40deg);
+  transition:width .35s ease;
+}
+
+.btn:hover::before{
+  width:150%;
+}
+
+/* Link */
+.forgot{
+  display:block;
+  margin-top:15px;
+  font-size:.85rem;
+  color:#fff;
+  opacity:.85;
+  text-decoration:none;
+}
+
+.forgot:hover{ opacity:1; }
+
+/* Alertas */
+.alert{
+  background:#f8d7da;
+  color:#842029;
+  border:1px solid #f5c2c7;
+  border-radius:8px;
+  padding:12px 15px;
+  margin-top:12px;
+}
+
+/* Disabled */
+input:disabled,
+.btn[disabled]{
+  background:#ccc!important;
+  cursor:not-allowed;
+  opacity:.7;
+}
+
+/* Accesibilidad */
+@media(prefers-reduced-motion:reduce){
+  body, .logo, main.login-card, .btn {
+    animation:none!important;
+  }
+}
