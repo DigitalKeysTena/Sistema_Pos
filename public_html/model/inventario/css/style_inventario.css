@@ -1,0 +1,332 @@
+<style>
+/* ========================================
+   ESTILOS DEL PANEL DE INVENTARIO
+======================================== */
+
+#main-content {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    min-height: calc(100vh - 60px);
+    padding-bottom: 40px;
+}
+
+/* Header del panel */
+.panel-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.panel-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+}
+
+.panel-header::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -5%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+}
+
+.panel-header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.panel-header p {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.panel-header .header-icon {
+    font-size: 4rem;
+    color: rgba(255,255,255,0.2);
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-refresh {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.4);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-refresh:hover {
+    background: white;
+    color: #667eea;
+}
+
+.btn-refresh.loading i {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Stats cards */
+.stats-section {
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+}
+
+.stat-card.primary::before { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.stat-card.success::before { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+.stat-card.warning::before { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
+.stat-card.danger::before { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); }
+.stat-card.info::before { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.stat-card.dark::before { background: linear-gradient(135deg, #434343 0%, #000000 100%); }
+
+.stat-icon {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.stat-icon.bg-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.stat-icon.bg-success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+.stat-icon.bg-warning { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
+.stat-icon.bg-danger { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); }
+.stat-icon.bg-info { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.stat-icon.bg-dark { background: linear-gradient(135deg, #434343 0%, #000000 100%); }
+
+.stat-info h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin: 0;
+}
+
+.stat-info p {
+    color: #718096;
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+/* Tarjetas de opciones */
+.option-card {
+    background: white;
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    border: none;
+    height: 100%;
+}
+
+.option-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.card-icon-wrapper {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-icon-wrapper.bg-gradient-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.card-icon-wrapper.bg-gradient-success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+.card-icon-wrapper.bg-gradient-warning { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.card-icon-wrapper.bg-gradient-info { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+
+.card-icon-wrapper i {
+    font-size: 4rem;
+    color: white;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.option-card:hover .card-icon-wrapper i {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.card-icon-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+}
+
+.card-content {
+    padding: 25px 20px 30px;
+    text-align: center;
+}
+
+.card-content h5 {
+    font-weight: 700;
+    color: #2d3748;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    color: #718096;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn-card {
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-card.btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+.btn-card.btn-success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; }
+.btn-card.btn-info { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; }
+
+.btn-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Badge floating */
+.badge-floating {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255,255,255,0.9);
+    color: #667eea;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    z-index: 3;
+}
+
+/* Live indicator */
+.live-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.9);
+}
+
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background: #38ef7d;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.last-update {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    z-index: 1;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-card {
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+}
+
+.animate-card:nth-child(1) { animation-delay: 0.05s; }
+.animate-card:nth-child(2) { animation-delay: 0.1s; }
+.animate-card:nth-child(3) { animation-delay: 0.15s; }
+.animate-card:nth-child(4) { animation-delay: 0.2s; }
+.animate-card:nth-child(5) { animation-delay: 0.25s; }
+.animate-card:nth-child(6) { animation-delay: 0.3s; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .panel-header h1 { font-size: 1.8rem; }
+    .panel-header .header-icon { display: none; }
+    .card-icon-wrapper { height: 120px; }
+    .card-icon-wrapper i { font-size: 3rem; }
+    .stat-card { padding: 15px; }
+    .stat-icon { width: 45px; height: 45px; min-width: 45px; font-size: 1.1rem; }
+    .stat-info h3 { font-size: 1.3rem; }
+    .stat-info p { font-size: 0.75rem; }
+}
+</style>

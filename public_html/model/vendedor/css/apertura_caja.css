@@ -1,0 +1,251 @@
+/* apertura_caja.css */
+
+:root {
+    --primary: #11998e;
+    --secondary: #38ef7d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --dark: #2c3e50;
+    --light: #f8f9fa;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+    --border-radius: 12px;
+}
+
+.header-card {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 2rem;
+}
+
+.main-card {
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.card-header-custom {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: 1.25rem;
+    font-weight: 600;
+}
+
+.apertura-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.info-card i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.info-card h4 {
+    margin-bottom: 1rem;
+}
+
+.info-card p {
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+
+.form-section {
+    padding: 2rem;
+}
+
+.input-group-custom {
+    margin-bottom: 1.5rem;
+}
+
+.input-group-custom label {
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.input-group-custom label i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+}
+
+.input-group-custom input,
+.input-group-custom textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.input-group-custom input:focus,
+.input-group-custom textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(17, 153, 142, 0.1);
+}
+
+.input-group-custom input.input-money {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary);
+}
+
+.btn-modern {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.btn-modern i {
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.btn-abrir-caja {
+    background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
+    color: white;
+}
+
+.btn-abrir-caja:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-cancelar {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background: #5a6268;
+}
+
+.alert-info-box {
+    background: #e7f3ff;
+    border-left: 4px solid var(--info);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.alert-info-box i {
+    color: var(--info);
+    margin-right: 0.5rem;
+}
+
+.alert-warning-box {
+    background: #fff8e1;
+    border-left: 4px solid var(--warning);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.alert-warning-box i {
+    color: var(--warning);
+    margin-right: 0.5rem;
+}
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.spinner-overlay.show {
+    display: flex;
+}
+
+.spinner-content {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-item {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+.estado-caja-card {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+}
+
+.estado-caja-card h5 {
+    margin-bottom: 1rem;
+}
+
+.estado-caja-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .apertura-container {
+        padding: 1rem;
+    }
+    
+    .form-section {
+        padding: 1.5rem;
+    }
+    
+    .input-group-custom input.input-money {
+        font-size: 1.5rem;
+    }
+}

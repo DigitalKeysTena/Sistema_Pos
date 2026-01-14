@@ -1,0 +1,625 @@
+/* ============================================
+   ESTILOS PARA IMPRESIÓN DE FACTURA
+   ============================================ */
+
+/* Ocultar la factura en pantalla normal */
+#facturaImpresion {
+    display: none;
+}
+
+#fondoBlancoFactura {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondoBlancoFactura.activo {
+    display: flex;
+}
+
+/* ============================================
+   CONFIGURACIÓN DE IMPRESIÓN (TICKET 80mm)
+   ============================================ */
+@page {
+    size: 80mm auto;
+    margin: 0mm;
+}
+
+@media print {
+    * {
+        visibility: hidden !important;
+    }
+
+    #fondoBlancoFactura {
+        display: none !important;
+    }
+
+    html, body {
+        width: 80mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #facturaImpresion,
+    #facturaImpresion * {
+        visibility: visible !important;
+    }
+
+    #facturaImpresion {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 80mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .factura-ticket {
+        width: 80mm !important;
+        padding: 5mm !important;
+        box-sizing: border-box !important;
+        font-family: 'Courier New', monospace !important;
+        font-size: 10pt !important;
+        color: #000 !important;
+        background: #fff !important;
+    }
+
+    .factura-header {
+        text-align: center !important;
+        margin-bottom: 5mm !important;
+        border-bottom: 2px dashed #000 !important;
+        padding-bottom: 4mm !important;
+    }
+
+    .factura-logo {
+        max-width: 50mm !important;
+        height: auto !important;
+        margin-bottom: 2mm !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .factura-empresa {
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        margin: 2mm 0 !important;
+    }
+
+    .factura-info {
+        font-size: 9pt !important;
+        line-height: 1.4 !important;
+    }
+
+    .factura-numero {
+        font-size: 11pt !important;
+        font-weight: bold !important;
+        margin: 3mm 0 !important;
+    }
+
+    .factura-productos {
+        margin: 4mm 0 !important;
+        border-top: 2px dashed #000 !important;
+        border-bottom: 2px dashed #000 !important;
+        padding: 3mm 0 !important;
+    }
+
+    .factura-productos table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    .factura-productos th {
+        text-align: left !important;
+        font-size: 9pt !important;
+        font-weight: bold !important;
+        padding: 2mm 0 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    .factura-productos td {
+        padding: 2mm 0 !important;
+        font-size: 9pt !important;
+        vertical-align: top !important;
+    }
+
+    .factura-productos .producto-nombre {
+        max-width: 40mm !important;
+        word-wrap: break-word !important;
+    }
+
+    .factura-productos .cantidad {
+        text-align: center !important;
+        width: 10mm !important;
+    }
+
+    .factura-productos .precio,
+    .factura-productos .total {
+        text-align: right !important;
+        width: 15mm !important;
+    }
+
+    .factura-totales {
+        margin: 3mm 0 !important;
+    }
+
+    .factura-totales table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    .factura-totales td {
+        padding: 1mm 0 !important;
+        font-size: 10pt !important;
+    }
+
+    .factura-totales .label {
+        text-align: left !important;
+    }
+
+    .factura-totales .valor {
+        text-align: right !important;
+        font-weight: bold !important;
+    }
+
+    .factura-total-final {
+        border-top: 2px solid #000 !important;
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        padding-top: 2mm !important;
+    }
+
+    .factura-pago {
+        margin: 3mm 0 !important;
+        border-top: 2px dashed #000 !important;
+        padding-top: 3mm !important;
+    }
+
+    .factura-footer {
+        margin-top: 5mm !important;
+        text-align: center !important;
+        border-top: 2px dashed #000 !important;
+        padding-top: 4mm !important;
+        font-size: 9pt !important;
+    }
+
+    .factura-qr {
+        text-align: center !important;
+        margin: 3mm 0 !important;
+    }
+
+    .factura-qr img {
+        width: 30mm !important;
+        height: 30mm !important;
+    }
+
+    .factura-mensaje {
+        font-style: italic !important;
+        margin-top: 2mm !important;
+    }
+
+    /* No aplicar page-break automático */
+    .factura-ticket {
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+        page-break-inside: avoid !important;
+    }
+}
+
+/* ============================================
+   ESTILOS PARA VISTA PREVIA EN MODAL
+   ============================================ */
+.factura-preview {
+    width: 80mm;
+    min-height: 100mm;
+    padding: 5mm;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: #000;
+    margin: 0 auto;
+}
+
+.factura-preview .factura-header {
+    text-align: center;
+    margin-bottom: 5mm;
+    border-bottom: 2px dashed #000;
+    padding-bottom: 4mm;
+}
+
+.factura-preview .factura-logo {
+    max-width: 50mm;
+    height: auto;
+    margin-bottom: 2mm;
+}
+
+.factura-preview .factura-empresa {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 2mm 0;
+}
+
+.factura-preview .factura-info {
+    font-size: 9pt;
+    line-height: 1.4;
+}
+
+.factura-preview .factura-numero {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 3mm 0;
+}
+
+.factura-preview .factura-productos {
+    margin: 4mm 0;
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+    padding: 3mm 0;
+}
+
+.factura-preview .factura-productos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.factura-preview .factura-productos th {
+    text-align: left;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 2mm 0;
+    border-bottom: 1px solid #000;
+}
+
+.factura-preview .factura-productos td {
+    padding: 2mm 0;
+    font-size: 9pt;
+    vertical-align: top;
+}
+
+.factura-preview .factura-totales {
+    margin: 3mm 0;
+}
+
+.factura-preview .factura-totales table {
+    width: 100%;
+}
+
+.factura-preview .factura-totales td {
+    padding: 1mm 0;
+}
+
+.factura-preview .factura-total-final {
+    border-top: 2px solid #000;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 2mm;
+}
+
+.factura-preview .factura-footer {
+    margin-top: 5mm;
+    text-align: center;
+    border-top: 2px dashed #000;
+    padding-top: 4mm;
+    font-size: 9pt;
+}
+/* ============================================
+   ESTILOS PARA IMPRESIÓN DE FACTURA
+   ============================================ */
+
+/* Ocultar la factura en pantalla normal */
+#facturaImpresion {
+    display: none;
+}
+
+#fondoBlancoFactura {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondoBlancoFactura.activo {
+    display: flex;
+}
+
+/* ============================================
+   CONFIGURACIÓN DE IMPRESIÓN (TICKET 80mm)
+   ============================================ */
+@page {
+    size: 80mm auto;
+    margin: 0mm;
+}
+
+@media print {
+    * {
+        visibility: hidden !important;
+    }
+
+    #fondoBlancoFactura {
+        display: none !important;
+    }
+
+    html, body {
+        width: 80mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #facturaImpresion,
+    #facturaImpresion * {
+        visibility: visible !important;
+    }
+
+    #facturaImpresion {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 80mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .factura-ticket {
+        width: 80mm !important;
+        padding: 5mm !important;
+        box-sizing: border-box !important;
+        font-family: 'Courier New', monospace !important;
+        font-size: 10pt !important;
+        color: #000 !important;
+        background: #fff !important;
+    }
+
+    .factura-header {
+        text-align: center !important;
+        margin-bottom: 5mm !important;
+        border-bottom: 2px dashed #000 !important;
+        padding-bottom: 4mm !important;
+    }
+
+    .factura-logo {
+        max-width: 50mm !important;
+        height: auto !important;
+        margin-bottom: 2mm !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .factura-empresa {
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        margin: 2mm 0 !important;
+    }
+
+    .factura-info {
+        font-size: 9pt !important;
+        line-height: 1.4 !important;
+    }
+
+    .factura-numero {
+        font-size: 11pt !important;
+        font-weight: bold !important;
+        margin: 3mm 0 !important;
+    }
+
+    .factura-productos {
+        margin: 4mm 0 !important;
+        border-top: 2px dashed #000 !important;
+        border-bottom: 2px dashed #000 !important;
+        padding: 3mm 0 !important;
+    }
+
+    .factura-productos table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    .factura-productos th {
+        text-align: left !important;
+        font-size: 9pt !important;
+        font-weight: bold !important;
+        padding: 2mm 0 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    .factura-productos td {
+        padding: 2mm 0 !important;
+        font-size: 9pt !important;
+        vertical-align: top !important;
+    }
+
+    .factura-productos .producto-nombre {
+        max-width: 40mm !important;
+        word-wrap: break-word !important;
+    }
+
+    .factura-productos .cantidad {
+        text-align: center !important;
+        width: 10mm !important;
+    }
+
+    .factura-productos .precio,
+    .factura-productos .total {
+        text-align: right !important;
+        width: 15mm !important;
+    }
+
+    .factura-totales {
+        margin: 3mm 0 !important;
+    }
+
+    .factura-totales table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    .factura-totales td {
+        padding: 1mm 0 !important;
+        font-size: 10pt !important;
+    }
+
+    .factura-totales .label {
+        text-align: left !important;
+    }
+
+    .factura-totales .valor {
+        text-align: right !important;
+        font-weight: bold !important;
+    }
+
+    .factura-total-final {
+        border-top: 2px solid #000 !important;
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        padding-top: 2mm !important;
+    }
+
+    .factura-pago {
+        margin: 3mm 0 !important;
+        border-top: 2px dashed #000 !important;
+        padding-top: 3mm !important;
+    }
+
+    .factura-footer {
+        margin-top: 5mm !important;
+        text-align: center !important;
+        border-top: 2px dashed #000 !important;
+        padding-top: 4mm !important;
+        font-size: 9pt !important;
+    }
+
+    .factura-qr {
+        text-align: center !important;
+        margin: 3mm 0 !important;
+    }
+
+    .factura-qr img {
+        width: 30mm !important;
+        height: 30mm !important;
+    }
+
+    .factura-mensaje {
+        font-style: italic !important;
+        margin-top: 2mm !important;
+    }
+
+    .factura-ticket {
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+        page-break-inside: avoid !important;
+    }
+}
+
+/* ============================================
+   ESTILOS PARA VISTA PREVIA EN MODAL
+   ============================================ */
+.factura-preview {
+    width: 80mm;
+    min-height: 100mm;
+    padding: 5mm;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: #000;
+    margin: 0 auto;
+}
+
+.factura-preview .factura-header {
+    text-align: center;
+    margin-bottom: 5mm;
+    border-bottom: 2px dashed #000;
+    padding-bottom: 4mm;
+}
+
+.factura-preview .factura-logo {
+    max-width: 50mm;
+    height: auto;
+    margin-bottom: 2mm;
+}
+
+.factura-preview .factura-empresa {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 2mm 0;
+}
+
+.factura-preview .factura-info {
+    font-size: 9pt;
+    line-height: 1.4;
+}
+
+.factura-preview .factura-numero {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 3mm 0;
+}
+
+.factura-preview .factura-productos {
+    margin: 4mm 0;
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+    padding: 3mm 0;
+}
+
+.factura-preview .factura-productos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.factura-preview .factura-productos th {
+    text-align: left;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 2mm 0;
+    border-bottom: 1px solid #000;
+}
+
+.factura-preview .factura-productos td {
+    padding: 2mm 0;
+    font-size: 9pt;
+    vertical-align: top;
+}
+
+.factura-preview .factura-totales {
+    margin: 3mm 0;
+}
+
+.factura-preview .factura-totales table {
+    width: 100%;
+}
+
+.factura-preview .factura-totales td {
+    padding: 1mm 0;
+}
+
+.factura-preview .factura-total-final {
+    border-top: 2px solid #000;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 2mm;
+}
+
+.factura-preview .factura-footer {
+    margin-top: 5mm;
+    text-align: center;
+    border-top: 2px dashed #000;
+    padding-top: 4mm;
+    font-size: 9pt;
+}

@@ -1,0 +1,311 @@
+[04-Jan-2026 02:32:12 America/Guayaquil] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 3) in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 801
+[04-Jan-2026 10:27:15 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:27:15 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:28:24 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:28:24 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:32:33 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:32:33 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:34:27 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:34:27 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:37:23 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:37:23 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:40:31 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:40:31 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:41:54 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:41:54 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:523
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 523
+[04-Jan-2026 10:48:02 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:48:02 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:49:15 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:49:15 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:50:39 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:50:39 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:51:29 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:51:29 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:54:04 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:54:04 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:54:48 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 10:54:48 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 11:57:59 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 11:57:59 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 11:59:02 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 11:59:02 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:08:07 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:08:07 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:08:16 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:08:16 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:12:11 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 12:12:11 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:36:57 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:36:57 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:39:08 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:39:08 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:39:46 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 16:39:46 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:05:21 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:05:21 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:05:31 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:05:31 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:16:53 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:16:53 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:03 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:03 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:12 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:12 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:56 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:19:56 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:20:05 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:20:05 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:20:22 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:20:22 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:522
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 522
+[04-Jan-2026 17:22:11 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 974
+[04-Jan-2026 17:22:11 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:974
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 974
+[04-Jan-2026 17:25:19 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 974
+[04-Jan-2026 17:25:19 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:974
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 974
+[04-Jan-2026 17:59:54 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 17:59:54 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:1034
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 18:04:24 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 18:04:24 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:1034
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 18:07:16 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 18:07:16 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:1034
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 22:12:07 America/Guayaquil] PHP Warning:  require_once(/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php): Failed to open stream: No such file or directory in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[04-Jan-2026 22:12:07 America/Guayaquil] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ccgardco/public_html/model/vendedor/php/../../../utils/interfas/parte_inferior.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php:1034
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/cierre_caja.php on line 1034
+[07-Jan-2026 00:10:04 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:10:04 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:12:30 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:12:30 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:12:38 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:12:38 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:13:37 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:13:37 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:13:39 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:13:39 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:17:02 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:17:02 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:17:03 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:17:03 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:17:07 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:17:07 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:17:57 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:17:57 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:18:15 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:18:15 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:18:20 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:18:20 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:18:30 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:18:30 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:18:38 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:18:38 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:19:21 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:19:21 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:19:25 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:19:25 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:22:39 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:22:39 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:22:46 America/Guayaquil] PHP Warning:  Undefined variable $pdo in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:22:46 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ccgardco/src/middleware/verificar_caja_abierta.php:25
+Stack trace:
+#0 /home/ccgardco/src/middleware/verificar_caja_abierta.php(47): verificarCajaAbierta()
+#1 /home/ccgardco/public_html/model/vendedor/php/punto_venta.php(12): requiereCajaAbierta()
+#2 {main}
+  thrown in /home/ccgardco/src/middleware/verificar_caja_abierta.php on line 25
+[07-Jan-2026 00:23:08 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to undefined function requiereCajaAbierta() in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:23:09 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to undefined function requiereCajaAbierta() in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:23:12 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to undefined function requiereCajaAbierta() in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
+[07-Jan-2026 00:23:13 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to undefined function requiereCajaAbierta() in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ccgardco/public_html/model/vendedor/php/punto_venta.php on line 12
